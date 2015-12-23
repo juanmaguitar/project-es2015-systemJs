@@ -1,6 +1,6 @@
 # ES2015 Modular Architecture Project Boilerplate
 
-This repository contains a ready-to-go project structure w/ ES2015 modules and the proper tools to compile these modules into a browser-ready version ([SystemJs](https://github.com/systemjs/systemjs))
+This repository contains a ready-to-go project structure w/ ES2015 modules and the proper tools to compile these modules into a browser-ready version (w/ [SystemJs](https://github.com/systemjs/systemjs))
 
 ## Install
 
