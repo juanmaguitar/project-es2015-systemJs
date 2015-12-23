@@ -1,45 +1,24 @@
-s--------------------------------------------------------------------------------------------------------------
-What do you need ?
-* Install NodeJs: http://nodejs.org/
-* Install Git: https://code.google.com/p/msysgit/
-* Install Chrome: http://www.google.fr/intl/fr/chrome/browser/
+# ES2015 Modular Architecture Project Boilerplate
 
-Next, put into the system PATH:
-* NodeJs bin
-* Git bin
-* Chrome exe (with the specified name: CHROME_BIN) --> not needed
-Currently not needed
+This repository contains a ready-to-go project structure w/ ES2015 modules and the proper tools to compile these modules into a browser-ready version ([SystemJs](https://github.com/systemjs/systemjs))
 
---------------------------------------------------------------------------------------------------------------
-If you have a proxy:
+## Install
 
-You have a configuration property to configure Git
-git config --global http.proxy http://proxy.company.com:8080
-git config --global https.proxy http://proxy.company.com:8080
-git config --global http.sslVerify false
-git config --global https.sslVerify false
+Clone the repository
 
-And if needed
-git config --global url."https://".insteadOf git://
+    git clone https://github.com/juanmaguitar/project-es2015-systemJs.git
 
-You have two configuration properties to configure NPM
-npm config set proxy http://proxy.company.com:8080
-npm config set https-proxy http://proxy.company.com:8080
-npm config set strict-ssl false
+Install the dependencies
 
-For Bower, put into the PATH the variable "HTTP_PROXY"
-HTTP_PROXY http://proxy.company.com:8080
-HTTPS_PROXY http://proxy.company.com:8080
+    npm install
 
-Maybe you will have to do too:
-npm install npm -g --ca=null
-npm config set ca=""
+Compile demo files and launch local server w/ compiled version
 
---------------------------------------------------------------------------------------------------------------
-After that, open a shell prompt, go to the current directory and type the following commands
-> npm install
-    -> We will install required NodeJs main and development plugins
+    grunt serve 
 
-> bower install
-    -> We will install required frontend dependencies
+
+## Notes
+
+This project is based on the [generator-project-esnow](https://github.com/rochejul/generator-project-esnow) w/ some modifications added
+
 

@@ -85,5 +85,5 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('serve', ['default','connect:livereload','watch:all']);
+    grunt.registerTask('serve', ['compile','connect:livereload','watch:all']);
 };
